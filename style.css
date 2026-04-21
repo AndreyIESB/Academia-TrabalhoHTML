@@ -1,0 +1,117 @@
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu */
+nav {
+    background-color: #222;
+    padding: 15px;
+}
+
+nav a {
+    color: #00ffd5;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #00ffd5;
+}
+
+h2 {
+    text-align: center;
+    color: #ccc;
+}
+
+/* Parágrafos */
+p {
+    width: 80%;
+    margin: auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Listas */
+ul {
+    width: 60%;
+    margin: auto;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Imagens */
+img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Vídeo */
+video {
+    display: block;
+    margin: auto;
+}
+
+/* Áudio */
+audio {
+    display: block;
+    margin: auto;
+}
+
+/* Tabelas */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #00ffd5;
+    color: black;
+}
+
+/* Formulário */
+form {
+    width: 50%;
+    margin: auto;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* Botões */
+input[type="submit"], input[type="reset"] {
+    width: 45%;
+    background-color: #00ffd5;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #00cc66;
+}

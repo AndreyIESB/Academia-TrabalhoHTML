@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body id="topo">
+
+<header>
+    <nav style="text-align:center;">
+        <a href="../index.html">Home</a> |
+        <a href="pagina1.html">Galeria</a> |
+        <a href="pagina2.html">Formulário</a>
+    </nav>
+</header>
+
+<h1>Planos de Treino</h1>
+
+<table border="1">
+<tr>
+    <th>Dia</th>
+    <th>Treino</th>
+</tr>
+<tr><td>Segunda</td><td>Peito/Triceps</td></tr>
+<tr><td>Terça</td><td>Costas/Bíceps</td></tr>
+<tr><td>Quarta</td><td>Descanso</td></tr>
+<tr><td>Quinta</td><td>Pernas</td></tr>
+<tr><td>Sexta</td><td>Ombro/abdômes</td></tr>
+</table>
+
+<br>
+
+<table border="1">
+<tr>
+    <th>Objetivo</th>
+    <th>Tempo</th>
+</tr>
+<tr><td>Emagrecimento</td><td>3 meses</td></tr>
+<tr><td>Hipertrofia</td><td>6 meses</td></tr>
+</table>
+
+<br><br>
+
+<h2>Cadastro</h2>
+
+<form>
+<fieldset>
+<legend>Informações</legend>
+
+Nome: <input type="text"><br><br>
+Email: <input type="email"><br><br>
+Idade: <input type="number"><br><br>
+Telefone: <input type="tel"><br><br>
+
+Sexo:
+<input type="radio" name="sexo" required> Masculino
+<input type="radio" name="sexo"> Feminino
+<br><br>
+
+Objetivo:
+<input type="checkbox" required> Emagrecer
+<input type="checkbox"> Ganhar massa
+<input type="checkbox"> Saúde
+<br><br>
+
+Nível:
+<select>
+<option>Iniciante</option>
+<option>Intermediário</option>
+<option>Avançado</option>
+</select>
+
+<br><br>
+
+Mensagem:<br>
+<textarea></textarea>
+
+<br><br>
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+
+</fieldset>
+</form>
+
+<br>
+
+<a href="#topo">Voltar ao topo</a>
+
+</body>
+</html>
